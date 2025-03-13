@@ -86,7 +86,7 @@
     padding: 15px;
 }
 html {
-  scroll-padding-top: 78px; /* Sesuaikan 100px dengan tinggi navbar */
+  scroll-padding-top: 76px; /* Sesuaikan 100px dengan tinggi navbar */
 }
 .carousel-indicators [data-bs-target] {
   width: 12px;
@@ -279,7 +279,7 @@ html {
               </div>
               <div class="d-flex justify-content-between gap-2">
                 <a href="#" class="btn btn-primary btn-sm rounded">Selengkapnya <i class="bi bi-arrow-right"></i></a>
-                <a href="#" class="btn btn-sm rounded" style="background-color: #0d2b57; color: white;">Demo Web <i class="bi bi-arrow-right"></i></a>
+                <a href="/produkRFID" class="btn btn-sm rounded" style="background-color: #0d2b57; color: white;">Demo Web <i class="bi bi-arrow-right"></i></a>
               </div>
             </div>
           </div>

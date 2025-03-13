@@ -19,3 +19,14 @@ Route::get('/', function () {
 Route::get('/house', function () {
     return view('house');
 });
+Route::get('/invalid', function () {
+    return view('invalid');
+});
+
+Route::get('/form', function () {
+    return view('form');
+});
+
+Route::get('/produkRFID', function () {
+    return view('produkRFID');
+});

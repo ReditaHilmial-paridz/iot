@@ -8,8 +8,12 @@
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
     <style>
         html {
-        scroll-padding-top: 58px; /* Sesuaikan 100px dengan tinggi navbar */
+            scroll-padding-top: 58px; /* Sesuaikan 100px dengan tinggi navbar */
         }
+        html, body {
+            overflow-x: hidden;
+        }
+
     </style>
 </head>
 
@@ -18,11 +22,15 @@
     <x-navbar>
         <img src="/image/h-house.jpeg" alt="SMART HOME Starter Kit" class="img-fluid position-absolute top-10 end-0" style="height: 50px; margin-right: 10px;">
     </x-navbar>
+
     <div class="container-fluid mt-4 pt-5 px-0"> 
-        <div class="d-flex justify-content-between align-items-center bg-dark text-white p-3">
-            <a href="/" class="btn btn-light"> Kembali</a>
+        <div class="position-relative bg-dark text-white p-3 text-center">
+            <a href="/" class="btn btn-light position-absolute start-0" style="top: 13px; margin-left: 10px;">Kembali</a>
             <h4 class="m-0">SMART HOME - DEMO PRODUK</h4>
         </div>
+    </div>
+
+
 
         <div class="row mt-4 text-center justify-content-center">
             <!-- Lampu 1 -->
